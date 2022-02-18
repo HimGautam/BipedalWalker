@@ -1,6 +1,6 @@
 # BipedalWalker
 
-  This project is based on Neuroevolution of augmenting topologies (NEAT) algorithm. In brief terms, it uses Genetic Algorithm to evolve the Neural Network to find   a NN suitable for the task at hand.
+  This project is based on Neuroevolution of augmenting topologies (NEAT) algorithm. In brief terms, it uses Genetic Algorithm to evolve the Neural Network to find a NN suitable for the task at hand.
   
   
   ![ezgif com-gif-maker](https://user-images.githubusercontent.com/70597091/154683858-4b30eb98-7da4-4edd-99cf-404298ae2cd8.gif)
@@ -24,7 +24,7 @@
      knee_joint_2_speed 
      leg_2_ground_contact_flag]	 
      
-  Output of neural network is the torque of each motor
+  Output of neural network is the torque of each motor.
   
     [Hip_1 (Torque / Velocity)
      Knee_1 (Torque / Velocity)
@@ -45,5 +45,5 @@
   
   # Trying Out
   
-  If you just want to see the results of the code, run only last cell with ```#TEST``` comment. Otherwise you can also try to evolve the NN yourself using cell with ```run()``` in it. In all cases please store ```config-feedforward nn``` in main file directory. You can also try to tweak parameters stated in ```config-feedforward nn``` to get different or better result than me.
+  If you just want to see the results of the code, run only last cell with ```#TEST``` comment. Otherwise you can also try to evolve the NN yourself using cell with ```run()``` in it. In all cases, please store ```config-feedforward nn``` in main file directory. You can also try to tweak parameters stated in ```config-feedforward nn``` to get different or better result than me.
 
